@@ -1,0 +1,471 @@
+collections:
+  Trending:
+    trakt_trending: 50
+    tmdb_trending_daily: 50
+    tmdb_trending_weekly: 50
+    sort_title: _2Trending
+    sync_mode: sync
+    smart_label: year.desc
+    visible_home: true
+    visible_shared: true
+    summary: Movies Trending across the internet
+
+  Top Movies of the Week:
+    sort_title: _2Top Rated
+    trakt_list_details: "https://trakt.tv/users/giladg/lists/top-10-movies-of-the-week"
+    visible_home: true
+    visible_shared: true
+    summary: "Top 10 Movies of The Week"
+    
+  Top Pirated Movies of the Week:
+    mdblist_list: https://mdblist.com/lists/hdlists/top-ten-pirated-movies-of-the-week-torrent-freak-com/
+    sort_title: _2Top Pirated
+    collection_order: custom
+    schedule: weekly(monday)
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync 
+    
+  Top Kids Movies of the Week:
+    mdblist_list: https://mdblist.com/lists/linaspurinis/top-watched-movies-of-the-week-for-kids/
+    sort_title: _2Top Kids
+    collection_order: custom
+    schedule: weekly(monday)
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync 
+    
+  IMDb Top 250:
+    sort_title: _3IMDB Top 250
+    imdb_chart: top_english
+  #  collection_order: custom
+    schedule: weekly(friday)
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync  
+    
+  Box Office:
+    sort_title: _2Box Office
+    trakt_boxoffice: true
+    collection_order: custom
+    sync_mode: sync
+    
+  Popular on IMDb:
+    name_mapping: Popular IMDb
+    sort_title: "_1Popularimdb"
+    imdb_chart: popular_movies
+    limit: 25
+    sync_mode: sync
+    collection_order: custom
+    visible_home: true
+    visible_shared: true
+    summary: Popular Movies on IMDb
+    
+  Popular on TMDb:
+    name_mapping: Popular TMDb
+    sort_title: "_1Populartmdb"
+    sync_mode: sync
+    collection_order: custom    
+    tmdb_popular: 25
+    visible_home: true
+    visible_shared: true
+    summary: Popular Movies on TMDb
+    
+  Liam Neeson:
+    tmdb_actor: 3896
+    build_collection: false
+
+  300:
+    tmdb_collection_details: 125570 
+    sort_title: _5300
+    schedule: weekly(sunday)
+    name_mapping: '300'
+    collection_order: release
+    
+  Addams Family:
+    tmdb_collection_details: 11716
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Alien:
+    tmdb_collection_details: 135416, 8091
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  American Pie:
+    tmdb_collection_details: 298820, 2806
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Attack on Titan:
+    tmdb_collection_details: 370411
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Austin Powers:
+    tmdb_collection_details: 1006
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Back to the Future:
+    tmdb_collection_details: 264
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Bourne:
+    tmdb_collection_details: 31562
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Chronicles of Narnia:
+    tmdb_collection_details: 420
+    schedule: weekly(sunday)
+    sort_title: "Chronicles of Narnia, The"
+    collection_order: release
+
+  DC Films:
+    tmdb_company: 429
+    schedule: weekly(sunday)
+    collection_order: release
+
+  DCEU:
+    tmdb_list_details: 3
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Deadpool:
+    tmdb_collection_details: 448150
+    tmdb_movie: 567604
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Dungeons & Dragons:
+    tmdb_collection_details: 106498
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Fast and the Furious:
+    trakt_list_details: "https://trakt.tv/users/a9enx/lists/fast-and-furious-franchise?sort=released,desc"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Fifty Shades:
+    tmdb_collection_details: 344830
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Final Destination:
+    tmdb_collection_details: 8864
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Final Fantasy:
+    imdb_list: "https://www.imdb.com/list/ls022264056/"
+    schedule: weekly(sunday)
+    summary: A collection of films based off or closely associated with the Final Fantasy video games.
+    collection_order: release
+    
+  Ghostbusters:
+    tmdb_collection_details: 2980
+    tmdb_movie: 43074
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Halloween:
+    tmdb_collection_details: 91361, 126209
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Harold & Kumar:
+    tmdb_collection_details: 30663
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Wizarding World of Harry Potter:
+    tmdb_list_details: 94773
+    schedule: weekly(sunday)
+    sort_title: Harry Potter
+    collection_order: release
+    
+  Has Fallen:
+    tmdb_collection_details: 386534
+    schedule: weekly(sunday)
+    collection_order: release
+  
+  Home Alone:
+    tmdb_collection_details: 9888
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Honey, I Shrunk the Kids:
+    tmdb_collection_details: 72119
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Hunger Games:
+    tmdb_collection_details: 131635
+    schedule: weekly(sunday)
+    sort_title: "Hunger Games, The"
+    collection_order: release
+    
+  Ice Age:
+    tmdb_collection_details: 8354
+    tmdb_movie: 79218, 717095, 387893
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Jackass:
+    tmdb_collection_details: 17178
+    schedule: weekly(sunday)
+    collection_order: release
+
+  James Bond:
+    trakt_list_details: "https://trakt.tv/users/any/lists/james-bond"
+    schedule: weekly(sunday)
+    collection_order: release
+
+  John Wick:
+    tmdb_collection_details: 404609
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Jurassic Park:
+    tmdb_collection_details: 328
+    tmdb_movie: 630322
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Karate Kid:
+    tmdb_collection_details: 8580
+    tmdb_movie: 38575
+    schedule: weekly(sunday)
+    sort_title: "Karate Kid, The"
+    collection_order: release
+    
+  The Land Before Time:
+    tmdb_collection_details: 19163
+    schedule: weekly(sunday)
+    sort_title: "Land Before Time, The"
+    collection_order: release
+    
+  The Lion King:
+    tmdb_collection_details: 94032
+    schedule: weekly(sunday)
+    sort_title: "Lion King, The"
+    collection_order: release
+
+  Middle Earth:
+    trakt_list_details: "https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit"
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Marvel Studios:
+    tmdb_company: 420
+    summary: Marvel Studios is known for the production of the Marvel Cinematic Universe films, based on characters that appear in Marvel Comics publications.
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Matrix:
+    tmdb_collection_details: 2344
+    sort_title: "Matrix, The"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Maze Runner:
+    tmdb_collection_details: 295130
+    sort_title: "Maze Runner, The"
+    schedule: weekly(sunday)
+    collection_order: release
+
+  MCU:
+    trakt_list_details: "https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc"
+    schedule: weekly(sunday)
+    collection_order: release  
+    
+  MCU Phase 1:
+    imdb_list: https://www.imdb.com/list/ls074408893/
+    schedule: weekly(sunday)
+    sort_title: MCU Phase 1
+    collection_order: custom
+    
+  MCU Phase 2:
+    imdb_list: https://www.imdb.com/list/ls067756302/
+    schedule: weekly(sunday)
+    sort_title: MCU Phase 2
+    collection_order: custom
+    
+  MCU Phase 3:
+    imdb_list: https://www.imdb.com/list/ls090804244/
+    schedule: weekly(sunday)
+    sort_title: MCU Phase 3
+    collection_order: custom
+    
+  MCU Phase 4:
+    imdb_list: https://www.imdb.com/list/ls048352040/
+    schedule: weekly(sunday)
+    sort_title: MCU Phase 4
+    collection_order: custom
+    
+  Men In Black:
+    tmdb_collection_details: 86055
+    schedule: weekly(sunday)
+    collection_order: release
+     
+  The Mighty Ducks:
+    tmdb_collection_details: 10709
+    schedule: weekly(sunday)
+    sort_title: "Mighty Ducks, The"
+    collection_order: release
+    
+  Mission Impossible:
+    tmdb_collection_details: 87359
+    schedule: weekly(sunday)
+    sort_title: Mission Impossible
+    collection_order: release
+    name_mapping: Mission Impossible
+    
+  The Muppets:
+    imdb_list: "https://www.imdb.com/list/ls560759473/"
+    schedule: weekly(sunday)
+    sort_title: "Muppets, The"
+    collection_order: release
+    
+  The Neverending Story:
+    tmdb_collection_details: 91430
+    schedule: weekly(sunday)
+    sort_title: "Neverending Story, The"
+    collection_order: release
+    
+  A Nightmare on Elm Street:
+    tmdb_collection_details: 8581
+    tmdb_movie: 6466, 23437
+    schedule: weekly(sunday)
+    sort_title: "Nightmare on Elm Street, A"
+    collection_order: release
+    
+  Ocean's:
+    imdb_list: "https://www.imdb.com/list/ls068557644/"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Percy Jackson:
+    tmdb_collection_details: 179919
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Pirates of the Caribbean:
+    tmdb_collection_details: 295
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Planet of the Apes:
+    imdb_list: "https://www.imdb.com/list/ls063908764/"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Pokémon:
+    imdb_list: "https://www.imdb.com/list/ls062687939/"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Predator:
+    tmdb_collection_details: 399
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Riddick:
+    tmdb_collection_details: 2794
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Robert Langdon:
+    tmdb_collection_details: 115776
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Scream:
+    tmdb_collection_details: 2602
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Spider-Man (Original):
+    tmdb_collection_details: 556
+    schedule: weekly(sunday)
+    sort_title: Spiderman 1
+    collection_order: release
+    
+  The Amazing Spider-Man:
+    tmdb_collection_details: 125574 
+    schedule: weekly(sunday)
+    sort_title: "Spiderman 2"
+    collection_order: release
+    
+  Spider-Man (Avengers):
+    tmdb_collection_details: 531241
+    schedule: weekly(sunday)
+    sort_title: Spiderman 3
+    collection_order: release
+    
+  Spider-Man Universe:
+    trakt_list_details: "https://trakt.tv/users/james_97/lists/spider-verse"
+    sort_title: Spiderman 4
+    schedule: weekly(sunday)
+    collection_order: release
+
+  Star Trek:
+    imdb_list: "https://www.imdb.com/list/ls062347197/"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Star Wars:
+    trakt_list_details: "https://trakt.tv/users/draackje/lists/star-wars"
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Stephen King:
+    trakt_list_details: "https://trakt.tv/users/sketche1/lists/stephen-king?sort=popularity,asc"
+    schedule: weekly(sunday)
+    collection_order: custom
+  
+  Taken:
+    tmdb_collection_details: 135483
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  The Terminator:
+    tmdb_collection_details: 528
+    schedule: weekly(sunday)
+    sort_title: "Terminator, The"
+    collection_order: release
+ 
+  Transformers:
+    imdb_list: "https://www.imdb.com/list/ls033452628/"
+    schedule: weekly(sunday)
+    collection_order: release
+     
+  Twilight:
+    tmdb_collection_details: 33514
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  Underworld:
+    tmdb_collection_details: 2326
+    schedule: weekly(sunday)
+    collection_order: release
+
+  The View Askewniverse:
+    tmdb_list_details: "https://www.themoviedb.org/list/8175570"
+    schedule: weekly(sunday)
+    sort_title: View Askewniverse
+    collection_order: release
+    
+  X-Men:
+    tmdb_collection_details: 748, 453993, 448150
+    tmdb_movie: 567604
+    schedule: weekly(sunday)
+    collection_order: release
+    
+  xXx:
+    tmdb_collection_details: 52785
+    schedule: weekly(sunday)
+    collection_order: release

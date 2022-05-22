@@ -1,0 +1,308 @@
+collections:
+  A&E:
+    smart_filter:
+      all:
+        network: A&E
+    sort_title: _5A&E
+
+  ABC:
+    smart_filter:
+      all:
+        network: ABC
+    sort_title: _5ABC
+
+  Adult Swim:
+    smart_filter:
+      all:
+        network: Adult Swim
+    sort_title: _5Adult Swim
+
+  Apple TV+:
+    smart_filter:
+      all:
+        network: Apple TV+
+    sort_title: _5Apple TV+
+
+  AMC:
+    smart_filter:
+      any:
+        network: AMC, AMC+
+    sort_title: _5AMC
+
+  The CW:
+    smart_filter:
+      all:
+        network: The CW
+    sort_title: _5CW
+
+  Cartoon Network:
+    smart_filter:
+      all:
+        network: Cartoon Network
+    sort_title: _5Cartoon Network
+    
+  Comedy Central:
+    smart_filter:
+      all:
+        network: Comedy Central
+    sort_title: _5Comedy Central
+    
+  DC Comics:
+    smart_filter:
+      any:
+        studio: DC Comics, DC Entertainment
+    sort_title: _5DC Comics
+    
+  MTV:
+    smart_filter:
+      any:
+        network: MTV, MTV2
+    sort_title: _5MTV  
+    
+  Nickelodeon:
+    smart_filter:
+      all:
+        network: Nickelodeon
+    sort_title: _5Nickelodeon
+    
+  Peacock:
+    smart_filter:
+      all:
+        network: Peacock
+    sort_title: _5Peacock
+    
+  TLC:
+    smart_filter:
+      all:
+        network: TLC
+    sort_title: _5TLC
+    
+  TNT:
+    smart_filter:
+      all:
+        network: TNT
+    sort_title: _5TNT
+
+  Paramount+:
+    smart_filter:
+      any:
+        network: Paramount+, CBS
+    sort_title: _5Paramount+
+
+  Cinemax:
+    smart_filter:
+      all:
+        network: Cinemax
+    sort_title: _5Cinemax
+
+  Disney+:
+    smart_filter:
+      all:
+        network: Disney+
+    sort_title: _5Disney+
+
+  Disney Channel:
+    smart_filter:
+      all:
+        network: Disney Channel
+    sort_title: _5Disney Channel
+    
+  Disney Junior:
+    smart_filter:
+      all:
+        network: Disney Junior
+    sort_title: _5Disney Junior
+
+  Disney XD:
+    smart_filter:
+      all:
+        network: Disney XD
+    sort_title: _5Disney XD
+    
+  Fox:
+    smart_filter:
+      all:
+        network: Fox
+    sort_title: _5Fox
+
+  Freeform:
+    smart_filter:
+      all:
+        network: Freeform
+    sort_title: _5Freeform
+
+  FX:
+    smart_filter:
+      all:
+        network: FX
+    sort_title: _5FX
+
+  FXX:
+    smart_filter:
+      all:
+        network: FXX
+    sort_title: _5FXX
+
+  HBO Max:
+    smart_filter:
+      any:
+        network: HBO, HBO Max
+    sort_title: _5HBO
+
+  Hulu:
+    smart_filter:
+      all:
+        network: Hulu
+    sort_title: _5Hulu
+
+  Netflix:
+    smart_filter:
+      all:
+        network: Netflix
+    sort_title: _5Netflix
+
+  Prime Video:
+    smart_filter:
+      all:
+        network: Amazon
+    sort_title: _5Prime Video
+
+  Showtime:
+    smart_filter:
+      all:
+        network: Showtime
+    sort_title: _5Showtime
+
+  Starz:
+    smart_filter:
+      all:
+        network: Starz
+    sort_title: _5Starz
+
+  Syfy:
+    smart_filter:
+      all:
+        network: Syfy
+    sort_title: _5Syfy
+
+  YouTube:
+    smart_filter:
+      all:
+        network: YouTube
+    sort_title: _5YouTube
+
+  Crime:
+    smart_filter:
+      all:
+        genre: Crime
+    sort_title: _4Crime
+    
+  Reality:
+    smart_filter:
+      all:
+        genre: Reality
+    sort_title: _4Reality
+
+  Sci-Fi:
+    smart_filter:
+      all:
+        genre: Science Fiction
+    name_mapping: Science Fiction
+    sort_title: _4Sci-Fi
+  
+  Fantasy:
+    smart_filter:
+      all:
+        genre: Fantasy
+    sort_title: _4Fantasy
+  
+  Animation:
+    smart_filter:
+      all:
+        genre: Animation
+    sort_title: _4Animation
+
+  Action:
+    smart_filter:
+      all:
+        genre: Action
+    sort_title: _4Action
+    
+  Adventure:
+    smart_filter:
+      all:
+        genre: Adventure
+    sort_title: _4Adventure
+    
+  Family:
+    smart_filter:
+      all:
+        genre: Family
+    sort_title: _4Family
+
+  Comedy:
+    smart_filter:
+      all:
+        genre: Comedy
+    sort_title: _4Comedy
+    
+  Drama:
+    smart_filter:
+      all:
+        genre: Drama
+    sort_title: _4Drama
+    
+  Documentary:
+    smart_filter:
+      all:
+        genre: Documentary
+    sort_title: _4Documentary
+    
+  Rated TV-G:
+    smart_filter:
+      all:
+        content_rating: TV-G
+    name_mapping: TV-G
+    sort_title: _3TV-G
+    
+  Rated TV-PG:
+    smart_filter:
+      all:
+        content_rating: TV-PG
+    name_mapping: TV-PG
+    sort_title: _3TV-PG    
+    
+  Rated TV-14:
+    smart_filter:
+      all:
+        content_rating: TV-14
+    name_mapping: TV-14
+    sort_title: _3TV-14       
+    
+  Rated TV-MA:
+    smart_filter:
+      all:
+        content_rating: TV-MA
+    name_mapping: TV-MA
+    sort_title: _3R
+    
+  Not Rated:
+    smart_filter:
+      all:
+        content_rating: NR
+    sort_title: _3ZNR
+    name_mapping: NR
+    
+
+  Popular on Plex:
+    sort_title: "_1Popular"
+    sync_mode: sync
+    collection_order: custom
+    visible_home: true
+    visible_shared: true
+    tautulli_watched:
+      list_days: 120
+      list_size: 25
+      list_buffer: 25
+      list_minimum: 1
+    summary: Shows Popular on Plex

@@ -1,0 +1,55 @@
+collections:
+  Top Airing Anime:
+    sort_title: _2Top Airing Anime
+    mal_season:
+      sort_by: members
+      limit: 25
+    collection_order: custom
+    sync_mode: sync
+    visible_home: true
+    visible_shared: true
+    radarr_add_missing: false
+
+  Top Upcoming Anime:
+    mal_season:
+      season: summer
+      year: 2022
+      limit: 25
+    collection_order: custom
+    sync_mode: sync
+    sort_title: _3Top Upcoming Anime
+    radarr_add_missing: false
+    
+  Airing Anime:
+    mal_season:
+      season: spring
+      year: 2022
+    collection_order: custom
+    sync_mode: sync
+    sort_title: _2Airing Anime
+    visible_home: true
+    visible_shared: true
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Popular Anime:
+    sort_title: _4Popular
+    mal_popular: 25
+    anidb_popular: 25
+    anilist_popular: 25
+    radarr_add_missing: false
+    visible_home: true
+    visible_shared: true
+    summary: Popular Anime across the internet
+
+  Top Rated Anime:
+    sort_title: _3Top Rated
+    anilist_top_rated: 25
+    mal_all: 25
+    radarr_add_missing: false
+    summary: Top Rated Anime across the internet
+    
+  Fate:
+    trakt_list_details: "https://trakt.tv/users/xaess/lists/fate?sort=released,desc"
+    collection_order: release
+    radarr_add_missing: false

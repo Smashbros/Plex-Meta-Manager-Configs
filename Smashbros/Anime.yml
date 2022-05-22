@@ -1,0 +1,358 @@
+# Collection Images from Evil Tactician
+collections:
+  Seinen:
+    anilist_search:
+      tag: Seinen
+      sort_by: popular
+      format: TV
+ #   genre: Seinen
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    collection_order: custom
+  #  sync_mode: sync
+
+  Isekai:
+    anilist_search:
+      tag: Isekai
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Demons:
+    anilist_search:
+      tag: Demons
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    
+  Family Life:
+    anilist_search:
+      tag: Family Life
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Game:
+    anilist_search:
+      tag: Video Games
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Harem:
+    anilist_search:
+      tag: Female Harem
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Mecha:
+    anilist_search:
+      genre: Mecha
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Military:
+    anilist_search:
+      tag: Military
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Psychological:
+    anilist_search:
+      genre: Psychological
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Samurai:
+    anilist_search:
+      tag: Samurai
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Shoujo:
+    anilist_search:
+      tag: Shoujo
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Shounen:
+    anilist_search:
+      tag: Shounen
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Slice of Life:
+    anilist_search:
+      genre: Slice of Life
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Space:
+    anilist_search:
+      tag: Space
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Supernatural:
+    anilist_search:
+      genre: Supernatural
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Super Power:
+    anilist_search:
+      tag: Super Power
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Vampire:
+    anilist_search:
+      tag: Vampire
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Action:
+    anilist_search:
+      genre: Action
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Adventure:
+    anilist_search:
+      genre: Adventure
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Comedy:
+    anilist_search:
+      genre: Comedy
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Fantasy:
+    anilist_search:
+      genre: Fantasy
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Historical:
+    anilist_search:
+      tag: Historical
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Horror:
+    anilist_search:
+      genre: Horror
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Martial Arts:
+    anilist_search:
+      tag: Martial Arts
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Music:
+    anilist_search:
+      genre: Music
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Mystery:
+    anilist_search:
+      genre: Mystery
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Romance:
+    anilist_search:
+      genre: Romance
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    
+  Drama:
+    anilist_search:
+      genre: Drama
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    
+  Ecchi:
+    anilist_search:
+      genre: Ecchi
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Sci-Fi:
+    anilist_search:
+      genre: Sci-Fi
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    
+  Sports:
+    anilist_search:
+      genre: Sports
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Gourmet:
+    anilist_search:
+      tag: Food
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  School:
+    anilist_search:
+      tag:
+        - School
+        - School Club
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Boys Love:
+    anilist_search:
+      tag: Cute Boys Doing Cute Things
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Girls Love:
+    anilist_search:
+      tag: Cute Girls Doing Cute Things
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Parody:
+    anilist_search:
+      tag: Parody
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Police:
+    anilist_search:
+      tag: Police
+      sort_by: popular
+      format: TV
+    collection_order: custom
+    sonarr_add_missing: false
+    radarr_add_missing: false
+
+  Thriller:
+    anilist_search:
+      genre: Thriller
+      sort_by: popular
+      format: TV
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    
+  Donghua:
+    collection_order: alpha
+    sonarr_add_missing: false
+    radarr_add_missing: false
+    plex_search:
+      all:
+        audio_language: zh
+        title.not: aggretsuko
+
+  Popular on Plex:
+    sort_title: _1Popular
+    sync_mode: sync
+    collection_order: custom
+    visible_home: true
+    visible_shared: true
+    tautulli_watched:
+      list_days: 30
+      list_size: 25
+      list_buffer: 25
+      list_minimum: 1
+    summary: Anime Popular on Plex

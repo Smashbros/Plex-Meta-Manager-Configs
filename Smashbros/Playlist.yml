@@ -1,0 +1,55 @@
+playlists:
+  Arrowverse:
+    sync_mode: sync
+    libraries: TV
+    imdb_list: "https://www.imdb.com/list/ls097110610/"
+
+  Marvel Cinematic Universe:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc"
+    
+  X-Men Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/donxy/lists/x-men-universe?sort=rank,asc"
+    
+  Star Wars Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/movistapp/lists/star-wars?sort=rank,asc"
+    
+  James Bond Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/any/lists/james-bond?sort=rank,asc"
+    
+  Fast & Furious Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/a9enx/lists/fast-and-furious-franchise?sort=released,desc"
+    
+  Wizarding World Chronological Order:
+    sync_mode: sync
+    libraries: Movies
+    imdb_list: "https://www.imdb.com/list/ls025235050/"
+    
+  Lord of the Rings Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies
+    trakt_list: "https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc"
+    
+  Jurassic Park Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies
+    trakt_list: "https://trakt.tv/users/iamgabriel/lists/jurassic?sort=rank,asc"
+    
+  Hunger Games Movies Chronological Order:
+    sync_mode: sync
+    libraries: Movies
+    trakt_list: "https://trakt.tv/users/gapunk78/lists/hunger-games?sort=rank,asc"
+    
+  Star Wars Clone Wars Chronological Order:
+    sync_mode: sync
+    libraries: Movies, TV
+    trakt_list: "https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order"

@@ -1,0 +1,170 @@
+collections:
+  4K Movies:
+    smart_filter:
+      all:
+        resolution: 4K
+    sort_title: _44k
+    
+  Action:
+    smart_filter:
+      all:
+        genre: Action
+    sort_title: _4Action
+       
+  Adventure:
+    smart_filter:
+      all:
+        genre: Adventure
+    sort_title: _4Adventure
+        
+  Animation:
+    smart_filter:
+      all:
+        genre: Animation
+    sort_title: _4Animation
+        
+  Comedy:
+    smart_filter:
+      all:
+        genre: Comedy
+    sort_title: _4Comedy
+        
+  Crime:
+    smart_filter:
+      all:
+        genre: Crime
+    sort_title: _4Crime
+        
+  Documentary:
+    smart_filter:
+      all:
+        genre: Documentary
+    sort_title: _4Documentary
+            
+  Drama:
+    smart_filter:
+      all:
+        genre: Drama
+    sort_title: _4Drama
+        
+  Family:
+    smart_filter:
+      all:
+        genre: Family
+    sort_title: _4Family
+        
+  Fantasy:
+    smart_filter:
+      all:
+        genre: Fantasy
+    sort_title: _4Fantasy
+        
+  History:
+    smart_filter:
+      all:
+        genre: History
+    sort_title: _4History
+    
+  Horror:
+    smart_filter:
+      all:
+        genre: Horror
+    sort_title: _4Horror
+    
+  Music:
+    smart_filter:
+      all:
+        genre: Music
+    sort_title: _4Music
+        
+  Mystery:
+    smart_filter:
+      all:
+        genre: Mystery
+    sort_title: _4Mystery
+        
+  Romance:
+    smart_filter:
+      all:
+        genre: Romance
+    sort_title: _4Romance
+        
+  Rom-Com:
+    smart_filter:
+      all:
+        genre:
+          - Comedy
+          - Romance
+    sort_title: _4RomCom
+        
+  Science Fiction:
+    smart_filter:
+      all:
+        genre: Science Fiction
+    sort_title: _4Science Fiction
+    
+  Studio Ghibli:
+    smart_filter:
+      all:
+        studio: Studio Ghibli
+    sort_title: Studio Ghibli
+        
+  Thriller:
+    smart_filter:
+      all:
+        genre: Thriller
+    sort_title: _4Thriller
+        
+  War:
+    smart_filter:
+      all:
+        genre: War
+    sort_title: _4War
+    
+  Rated G:
+    smart_filter:
+      all:
+        content_rating: G
+    name_mapping: G
+    sort_title: _3RatedG
+    
+  Rated PG:
+    smart_filter:
+      all:
+        content_rating: PG
+    name_mapping: PG
+    sort_title: _3RatedPG    
+    
+  Rated PG-13:
+    smart_filter:
+      all:
+        content_rating: PG-13
+    name_mapping: PG-13
+    sort_title: _3RatedPG-13       
+    
+  Rated R:
+    smart_filter:
+      all:
+        content_rating: R
+    name_mapping: R
+    sort_title: _3RatedR
+    
+  Not Rated:
+    smart_filter:
+      all:
+        content_rating: NR
+    name_mapping: NR
+    sort_title: _3ZRatedNR
+    
+  Popular on Plex:
+    sort_title: "_1Popular"
+    sync_mode: sync
+    collection_order: custom
+    visible_home: true
+    visible_shared: true
+    tautulli_watched:
+      list_days: 30
+      list_size: 25
+      list_buffer: 25
+      list_minimum: 1
+    summary: Movies Popular on Plex

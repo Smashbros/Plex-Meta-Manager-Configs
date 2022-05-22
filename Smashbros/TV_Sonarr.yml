@@ -1,0 +1,68 @@
+collections:
+  Dexter:
+    tvdb_list: "https://thetvdb.com/lists/dexter"
+    schedule: weekly(sunday)
+    collection_order: custom
+    sort_title: _6Dexter
+    sync_mode: sync
+
+  Marvel:
+    trakt_list_details: "https://trakt.tv/users/arachn0id/lists/marvel-tv-series?sort=released,desc"
+    trakt_list: "https://trakt.tv/users/traction1/lists/marvel-tv?sort=released,asc"
+    schedule: weekly(sunday)
+    sort_title: _6Marvel
+    
+  Star Wars:
+    tvdb_list: "https://thetvdb.com/lists/star-wars"
+    schedule: weekly(sunday)
+    collection_order: custom
+    sort_title: _6Star Wars
+    sync_mode: sync
+
+  Arrowverse:
+    tvdb_list: "https://www.thetvdb.com/lists/arrowverse"
+    schedule: weekly(sunday)
+    tvdb_show: 361868
+    sort_title: _6Arrowverse
+    sync_mode: sync
+
+  Power Universe:
+    tvdb_show: 276562, 376837, 377332, 377593
+    schedule: weekly(sunday)
+    sort_title: _6Power Universe
+    
+  Dragon Ball TV Collection:
+    tvdb_show: 76666, 81472, 88031, 79275, 347734
+    schedule: weekly(sunday)
+    sort_title: _6Dragon Ball TV Collection
+
+  Trending:
+    sort_title: "_2Trending"
+    trakt_chart:
+      chart: trending
+      limit: 20
+    tmdb_trending_weekly: 10
+    visible_home: true
+    visible_shared: true
+    summary: Shows Trending across the internet
+
+  Popular on IMDb:
+    name_mapping: Popular IMDb
+    sort_title: "_2Popularimdb"
+    imdb_chart: popular_shows
+    limit: 25
+    sync_mode: sync
+    collection_order: custom
+    visible_home: true
+    visible_shared: true
+    summary: Popular Shows on IMDb
+    
+  Popular on TMDb:
+    name_mapping: Popular TMDb
+    sort_title: "_2Populartmdb"
+    sync_mode: sync
+    collection_order: custom    
+    tmdb_popular: 25
+    visible_home: true
+    visible_shared: true
+    summary: Popular Shows on TMDb
